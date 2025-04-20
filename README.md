@@ -1,12 +1,16 @@
 # 🚨 Detecção de Port Scan com Suricata
 
+[![Status](https://img.shields.io/badge/status-concluído-brightgreen)]()
+[![Nível](https://img.shields.io/badge/nível-iniciante-blue)]()
+[![Ferramentas](https://img.shields.io/badge/ferramentas-Wireshark%20%7C%20Suricata-purple)]()
+
 ## 📦 port-scan-suricata/
 ```bash
 ├── images/                          <- Capturas de tela da análise
 │   ├── 1-wireshark-syn-scan.png
 │   ├── 2-wireshark-packet.png
 │   └── 3-suricata-alert.png
-├── pcap_files/                      <- Arquivos `.pcap` de exemplo
+├── pcap_files/                      <- Arquivos `.pcap` analisado
 │   └── portscan.pcap
 ├── suricata_rules/                  <- Regras personalizadas do Suricata
 │   └── local.rules
