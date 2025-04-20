@@ -1,0 +1,1 @@
+alert tcp any any -> any any (flags:S; msg:"SYN Port Scan Detected"; threshold: type both, track by_src, count 20, seconds 10; sid:1000001; rev:1;)
